@@ -163,14 +163,14 @@
       (property "Value" "NC7WZ14P6X" (id 1) (at -5.08 -6.35 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "SOT65P210X110-6N" (id 2) (at -10.16 -3.81 0)
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (id 2) (at -10.16 -3.81 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "Datasheet" "" (id 3) (at 2.54 0 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "ki_locked" "" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
+      (property "ki_description" "Inverter IC 2 Channel Schmitt Trigger SC-88 (SC-70-6)" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "NC7WZ14P6X_0_0"
         (polyline
