@@ -396,6 +396,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
+          "+3V3",
           "+5V",
           "/BTN_PWR",
           "/SENS_PWR",

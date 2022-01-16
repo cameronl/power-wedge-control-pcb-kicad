@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "NC7WZ14P6X")(type "KiCad")(uri "${KISITEMOD}/NC7WZ14P6X.kicad_sym")(options "")(descr ""))
+  (lib (name "tlv70212dbv_with_pin4")(type "Legacy")(uri "${KISITEMOD}/tlv70212dbv_with_pin4.lib")(options "")(descr ""))
 )
