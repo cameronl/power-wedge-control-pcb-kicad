@@ -4493,7 +4493,7 @@
   )
 
   (symbol (lib_id "MCU_Module:Adafruit_Feather_HUZZAH32_ESP32") (at 177.8 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 96361931-90e6-466d-9931-086a0ffba5fb)
     (property "Reference" "A2" (id 0) (at 179.8194 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
