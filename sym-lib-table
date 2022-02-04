@@ -2,4 +2,5 @@
   (lib (name "NC7WZ14P6X")(type "KiCad")(uri "${KISITEMOD}/NC7WZ14P6X.kicad_sym")(options "")(descr ""))
   (lib (name "tlv70212dbv_with_pin4")(type "Legacy")(uri "${KISITEMOD}/tlv70212dbv_with_pin4.lib")(options "")(descr ""))
   (lib (name "NC7WZ17P6X")(type "KiCad")(uri "${KISITEMOD}/NC7WZ17P6X.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC08ADRG3")(type "KiCad")(uri "${KIPRJMOD}/74LVC08/SN74LVC08ADRG3.kicad_sym")(options "")(descr ""))
 )
