@@ -2764,6 +2764,7 @@
     )
   )
 
+
   (junction (at 82.55 172.72) (diameter 0) (color 0 0 0 0)
     (uuid 0454b0ed-4e94-46b1-9058-7210ddee62e4)
   )
@@ -5584,6 +5585,19 @@
     (pin "4" (uuid e2bcdd7d-5776-4f38-9e67-8bb84d8b0afc))
   )
 
+  (symbol (lib_id "Device:R") (at 30.48 96.52 270) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 4741c2f9-3aad-4ec5-93d7-cfe712a42a5a)
+    (property "Reference" "R25" (id 0) (at 30.48 99.06 90))
+    (property "Value" "470" (id 1) (at 30.48 96.52 90))
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 30.48 94.742 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 30.48 96.52 0))
+    (pin "1" (uuid e1528d0f-0f77-44c4-b398-b7c0c9b96ba1))
+    (pin "2" (uuid 68fc3e81-6550-470a-a28e-402e5fd6ffa7))
+  )
+
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 21.59 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 539d396f-c082-4919-8b44-935b9fd1d3e6)
@@ -6445,19 +6459,19 @@
     (pin "2" (uuid 91c30a76-599c-47d5-907b-9ef487b8a8a0))
   )
 
-  (symbol (lib_id "power:+12V") (at 26.67 96.52 270) (unit 1)
+  (symbol (lib_id "power:+12V") (at 34.29 96.52 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f69c9c91-e7c4-42f3-8f65-c418d9d2fe82)
-    (property "Reference" "#PWR013" (id 0) (at 22.86 96.52 0)
+    (property "Reference" "#PWR013" (id 0) (at 30.48 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+12V" (id 1) (at 29.9212 96.901 90)
+    (property "Value" "+12V" (id 1) (at 37.5412 96.901 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 26.67 96.52 0)
+    (property "Footprint" "" (id 2) (at 34.29 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 26.67 96.52 0)
+    (property "Datasheet" "" (id 3) (at 34.29 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 146e81ca-459a-4d29-be59-da501c2bef1f))
@@ -6968,6 +6982,9 @@
     )
     (path "/83c1848e-d5f2-4cfa-8fa9-f41572d92712"
       (reference "R24") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/4741c2f9-3aad-4ec5-93d7-cfe712a42a5a"
+      (reference "R25") (unit 1) (value "470") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/17027fea-91c8-4491-8aaa-146a40ba9ca9"
       (reference "SW1") (unit 1) (value "SW_SPST") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
