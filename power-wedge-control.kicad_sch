@@ -4043,6 +4043,11 @@
     (uuid fff6ca1f-88ed-41a6-ae7d-fddabf17293f)
   )
 
+  (text "TODO: More capacitance and/or UVLP? To protect/indicate battery input undervolt."
+    (at 191.77 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0487eaf1-aed4-43c8-b413-58a751ee6704)
+  )
   (text "TODO: Invert output_enable to output_disable?" (at 191.77 172.72 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0602a3fe-be17-4de4-87e0-a8a7795290d9)
@@ -4095,6 +4100,11 @@
   (text "TODO: Analog front end?" (at 191.77 121.92 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 418a0e9c-c95f-4d4a-a88f-ec13faf3303c)
+  )
+  (text "TODO: Weak pull-up on A0. So we can use without keypad shield."
+    (at 191.77 151.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 47cc1fdc-68c6-49ff-9b87-55bdcf3ac29c)
   )
   (text "TODO: MicroSD card?" (at 191.77 175.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
